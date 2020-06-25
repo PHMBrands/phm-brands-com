@@ -1,8 +1,8 @@
 import React from 'react';
-import outsideLogo from '../../utils/images/panhandle-logo.png';
-import outsideBadge from '../../utils/images/viobin-logo.png';
-import natGeo from '../../utils/images/guardian-logo.png';
-import accoladesSplash from '../../utils/images/sample-wheat-field.jpg';
+import PanhandleLogo from '../../utils/images/panhandle-logo.png';
+import ViobinLogo from '../../utils/images/viobin-logo.png';
+import GuardianLogo from '../../utils/images/guardian-logo.png';
+// import accoladesSplash from '../../utils/images/sample-wheat-field.jpg';
 
 const OurCompanies = () => {
   
@@ -11,19 +11,19 @@ const OurCompanies = () => {
       <h4>Our Companies</h4>
       <section className="accolades-info">
         <article className="individual-accolade">
-          <img src={outsideLogo} alt="outside-magazine-logo" />
+          <img src={PanhandleLogo} className="company-logo" />
           {/* <h4>Our People</h4> */}
-          {/* <p>Voted <span className="bold-accolade">"World's Best Travel Company" </span>by Outside Magazine</p> */}
+          <p>Specializing in grain-based products for bulk, retail, mid-sized customers, and e-commerce.</p>
         </article>  
         <article className="individual-accolade">
-          <img src={outsideBadge} id="outside-badge" alt="outside-magazine-badge" />
+          <img src={ViobinLogo} className="company-logo" />
           {/* <h4>Our Products</h4> */}
-          {/* <p>Natural Habitate Adventures Ranked <span className="bold-accolade">"Best Outfitter"</span></p> */}
+          <p>Specializing in oil extraction and supplements with a special emphasis on Wheat Germ Oil and CBD for both human and animal markets.</p>
         </article>  
         <article className="individual-accolade">
-          <img src={natGeo} alt="national-geographic-traveler-logo" />
+          <img src={GuardianLogo} className="company-logo" />
           {/* <h4>Our Customers</h4> */}
-          {/* <p>Voted <span className="bold-accolade">"Best Winter Trip" </span>Natural Habitat Adventures' Monarch Butterfly Migration, Mexico</p> */}
+          <p>Specializing in sanitization products and processes that are designed to keep your food safe. </p>
         </article>
       </section>
       {/* <div className="tagline-container">
