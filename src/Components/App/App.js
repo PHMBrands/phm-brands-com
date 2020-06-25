@@ -12,6 +12,7 @@ import Footer from '../Footer/Footer';
 import StickyFooter from '../StickyFooter/StickyFooter';
 import OurCompanies from '../OurCompanies/OurCompanies';
 import OurBrands from '../OurBrands/OurBrands';
+import SkinnyFooter from '../SkinnyFooter/SkinnyFooter';
 
 
 function App() {
@@ -27,9 +28,11 @@ function App() {
       {/* <RegionalTrips /> */}
       <AboutMain />
       {/* <StickyFooter /> */}
-      <VideoMain />
-      <NewsletterSignUp />
+      {/* <VideoMain /> */}
+      {/* <NewsletterSignUp /> */}
+      <SkinnyFooter />
       {/* <Footer /> */}
+
     </div>
   )
 }
