@@ -1,0 +1,26 @@
+.contact-us {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.contact-info {
+  margin-left: 130px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+
+  input {
+    margin: 5px 0px;
+  }
+}
+
+.form-name-and-email {
+  width: 20vw;
+}
+
+.form-message {
+  width: 20vw;
+  height: 100px;
+}

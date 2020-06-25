@@ -6,19 +6,13 @@ const SkinnyFooter = () => {
 
   return (
     <footer>
-      <div>
-        {/* <img src={natHabIcon} className="nat-hab-logo" alt="Natural Habitat Adventures icon" /> */}
-        {/* <img src={wwfIcon} className="wwf-logo" alt="WWF icon" /> */}
-      </div>
-      <div>
-        <h5>About Us</h5>
-        <h5>Our Companies</h5>
-        <h5>Our Products</h5>
-        <h5>Our Team</h5>
-        <h5>Contact Us</h5>
-        {/* <h5>CONTACT US</h5> */}
-        {/* <h5>eNEWS SIGNUP</h5> */}
-        {/* <button className="catalog-link">GET THE CATALOG</button> */}
+      <div className="footer-links">
+        <h5>Privacy Policy</h5>
+        <h5>Press</h5>
+        <h5>LinkedIn</h5>
+        <h5>Careers</h5>
+        <h5>Product Catalogue</h5>
+        <h5>Retail Placemat</h5>
       </div>
     </footer>
   )
