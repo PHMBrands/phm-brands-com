@@ -10,35 +10,43 @@ const OurTeam = () => {
       <div className="our-team-section">
         <article className="team-member">
           <img src={headshot} className="team-member-image" />
-          <p>John Mason, CEO</p>
+          <p>John Mason</p>
+          <p>Partner</p>
         </article>
         <article className="team-member">
           <img src={headshot} className="team-member-image" />
-          <p>Bryan Ledgerwood, COO</p>
+          <p>Bryan Ledgerwood</p>
+          <p>Partner</p>
         </article>
         <article className="team-member">
           <img src={headshot} className="team-member-image" />
-          <p>Peter Bisaccia, President Panhandle Milling, LLC</p>
+          <p>Peter Bisaccia</p>
+          <p>President</p>
         </article>
         <article className="team-member">
           <img src={headshot} className="team-member-image" />
-          <p>Don Pearson, Partner Commercial Strategy & Execution</p>
+          <p>Don Pearson</p>
+          <p>Partner Commercial Strategy & Execution</p>
         </article>
         <article className="team-member">
           <img src={headshot} className="team-member-image" />
-          <p>Jennifer Harnish, VP Business Operations</p>
+          <p>Jennifer Harnish</p>
+          <p>VP Business Operations</p>
         </article>
         <article className="team-member">
           <img src={headshot} className="team-member-image" />
-          <p>Jason Stoddart, VP HR & Facilities </p>
+          <p>Jason Stoddart</p>
+          <p>VP HR & Facilities</p>
         </article>
         <article className="team-member">
           <img src={headshot} className="team-member-image" />
-          <p>Neil Hartzell, VP Supply Chain & Logistics</p>
+          <p>Neil Hartzell</p>
+          <p>VP Supply Chain & Logistics</p>
         </article>
         <article className="team-member">
           <img src={headshot} className="team-member-image" />
-          <p>Scott Freebern, VP Technical Milling & Engineering</p>
+          <p>Scott Freebern</p>
+          <p>VP Technical Milling & Engineering</p>
         </article>
       </div>
     </section>

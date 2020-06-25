@@ -2,8 +2,16 @@
   background-color: sandybrown;
   display: flex;
   justify-content: center;
+  text-transform: uppercase;
 
   h5 {
-    margin: 25px;
+    margin: 16.5px;
+    font-weight: 600;
+    font-size: 1em;
+  }
+
+  h5:hover {
+    color: #333333;
+    cursor: pointer;
   }
 }

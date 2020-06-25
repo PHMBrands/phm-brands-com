@@ -10,17 +10,17 @@ const OurCompanies = () => {
     <section className="accolades">
       <h4>Our Companies</h4>
       <section className="accolades-info">
-        <article className="individual-accolade">
+        <article className="company-info">
           <img src={PanhandleLogo} className="company-logo" />
           {/* <h4>Our People</h4> */}
           <p>Specializing in grain-based products for bulk, retail, mid-sized customers, and e-commerce.</p>
         </article>  
-        <article className="individual-accolade">
+        <article className="company-info">
           <img src={ViobinLogo} className="company-logo" />
           {/* <h4>Our Products</h4> */}
           <p>Specializing in oil extraction and supplements with a special emphasis on Wheat Germ Oil and CBD for both human and animal markets.</p>
         </article>  
-        <article className="individual-accolade">
+        <article className="company-info">
           <img src={GuardianLogo} className="company-logo" />
           {/* <h4>Our Customers</h4> */}
           <p>Specializing in sanitization products and processes that are designed to keep your food safe. </p>

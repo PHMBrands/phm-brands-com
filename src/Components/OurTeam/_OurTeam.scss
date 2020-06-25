@@ -5,6 +5,10 @@
   h5 {
     font-size: 2em;
   }
+
+  p {
+    margin: 3px;
+  }
 }
 
 .our-team-section {
@@ -18,7 +22,7 @@
   display: flex;
   flex-direction: column; 
   align-items: center;
-  margin: 50px;
+  margin: 40px 50px;
 }
 
 .team-member-image {
