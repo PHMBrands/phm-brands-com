@@ -36,6 +36,7 @@ const ContactUs = () => {
             {/* <input className="form-message"
               type="textarea"
             />  */}
+            <button>SUBMIT</button>
           </form>
         </section>
       </section>

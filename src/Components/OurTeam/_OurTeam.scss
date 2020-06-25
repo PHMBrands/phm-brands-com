@@ -1,6 +1,7 @@
 .our-team {
   background-color: #77A6AD;
   text-align: center;
+  padding-top: 10px;
 
   h5 {
     font-size: 2em;
@@ -25,6 +26,13 @@
   margin: 40px 50px;
 }
 
+.member-name {
+  margin-top: 5px;;
+  font-weight: 700;
+}
+
 .team-member-image {
-  width: 100px;
+  width: 175px;
+  border-radius: 50%;
+  margin-bottom: 15px;
 }

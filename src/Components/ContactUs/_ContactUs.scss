@@ -2,6 +2,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  h5 {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
 }
 
 .contact-options {
@@ -10,23 +15,39 @@
 }
 
 .contact-info {
-  margin-left: 130px;
+  padding: 60px;
+
+  h5 {
+    margin-top: 5px;
+  }
 }
 
-form {
+.contact-form {
+  padding: 60px;
+
+  h5 {
+    margin-top: 5px;
+  }
+}
+
+.contact-form {
   display: flex;
   flex-direction: column;
 
   input {
     margin: 5px 0px;
   }
+
+  button {
+    margin-top: 10px;
+  }
 }
 
 .form-name-and-email {
-  width: 20vw;
+  width: 40vw;
 }
 
 .form-message {
-  width: 20vw;
+  width: 40vw;
   height: 100px;
 }
