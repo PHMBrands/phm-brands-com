@@ -1,7 +1,7 @@
 import React from 'react';
-import outsideLogo from '../../utils/images/product.png';
-import outsideBadge from '../../utils/images/social-care.png';
-import natGeo from '../../utils/images/quality.png';
+import outsideLogo from '../../utils/images/panhandle-logo.png';
+import outsideBadge from '../../utils/images/viobin-logo.png';
+import natGeo from '../../utils/images/guardian-logo.png';
 import accoladesSplash from '../../utils/images/sample-wheat-field.jpg';
 
 const OurCompanies = () => {

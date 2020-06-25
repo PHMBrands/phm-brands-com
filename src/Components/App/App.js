@@ -28,7 +28,7 @@ function App() {
       {/* <TripSelector /> */}
       {/* <FeaturedTrips /> */}
       {/* <RegionalTrips /> */}
-      <AboutMain />
+      {/* <AboutMain /> */}
       {/* <StickyFooter /> */}
       {/* <VideoMain /> */}
       {/* <NewsletterSignUp /> */}

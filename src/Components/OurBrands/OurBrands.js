@@ -1,29 +1,54 @@
 import React from 'react';
-import outsideLogo from '../../utils/images/product.png';
-import outsideBadge from '../../utils/images/social-care.png';
-import natGeo from '../../utils/images/quality.png';
-import accoladesSplash from '../../utils/images/sample-wheat-field.jpg';
+import brandSample from '../../utils/images/brand-sample.png';
+// import outsideBadge from '../../utils/images/social-care.png';
+// import natGeo from '../../utils/images/quality.png';
+// import accoladesSplash from '../../utils/images/sample-wheat-field.jpg';
 
 const OurBrands = () => {
   
   return (
-    <section className="accolades">
+    <section className="our-brands">
       <h4>Our Brands</h4>
-      <section className="accolades-info">
-        <article className="individual-accolade">
-          <img src={outsideLogo} alt="outside-magazine-logo" />
-          {/* <h4>Our People</h4> */}
+      <section className="our-brands-details">
+        <article>
+          <img src={brandSample} className="brand-logo"  />
+          <h4>Our People</h4>
           {/* <p>Voted <span className="bold-accolade">"World's Best Travel Company" </span>by Outside Magazine</p> */}
         </article>  
-        <article className="individual-accolade">
-          <img src={outsideBadge} id="outside-badge" alt="outside-magazine-badge" />
-          {/* <h4>Our Products</h4> */}
+        <article>
+          <img src={brandSample} className="brand-logo" />
+          <h4>Our Products</h4>
           {/* <p>Natural Habitate Adventures Ranked <span className="bold-accolade">"Best Outfitter"</span></p> */}
         </article>  
-        <article className="individual-accolade">
-          <img src={natGeo} alt="national-geographic-traveler-logo" />
-          {/* <h4>Our Customers</h4> */}
+        <article>
+          <img src={brandSample} className="brand-logo"  />
+          <h4>Our Customers</h4>
           {/* <p>Voted <span className="bold-accolade">"Best Winter Trip" </span>Natural Habitat Adventures' Monarch Butterfly Migration, Mexico</p> */}
+        </article>
+        <article>
+          <img src={brandSample} className="brand-logo" />
+          <h4>Our People</h4>
+          {/* <p>Voted <span className="bold-accolade">"World's Best Travel Company" </span>by Outside Magazine</p> */}
+        </article>
+        <article>
+          <img src={brandSample} className="brand-logo" />
+          <h4>Our People</h4>
+          {/* <p>Voted <span className="bold-accolade">"World's Best Travel Company" </span>by Outside Magazine</p> */}
+        </article>
+        <article>
+          <img src={brandSample} className="brand-logo" />
+          <h4>Our People</h4>
+          {/* <p>Voted <span className="bold-accolade">"World's Best Travel Company" </span>by Outside Magazine</p> */}
+        </article>
+        <article>
+          <img src={brandSample} className="brand-logo" />
+          <h4>Our People</h4>
+          {/* <p>Voted <span className="bold-accolade">"World's Best Travel Company" </span>by Outside Magazine</p> */}
+        </article>
+        <article>
+          <img src={brandSample} className="brand-logo" />
+          <h4>Our People</h4>
+          {/* <p>Voted <span className="bold-accolade">"World's Best Travel Company" </span>by Outside Magazine</p> */}
         </article>
       </section>
       {/* <div className="tagline-container">

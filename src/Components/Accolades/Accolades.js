@@ -1,29 +1,29 @@
 import React from 'react';
-import outsideLogo from '../../utils/images/product.png';
-import outsideBadge from '../../utils/images/social-care.png';
-import natGeo from '../../utils/images/quality.png';
+import outsideLogo from '../../utils/images/our-people.png';
+import outsideBadge from '../../utils/images/our-quality.png';
+import natGeo from '../../utils/images/our-customer.png';
 import accoladesSplash from '../../utils/images/sample-wheat-field.jpg';
 
 const Accolades = () => {
   
   return (
     <section className="accolades">
-      <h4>We're Proud of the Reputation We've Earned</h4>
+      {/* <h4>We're Proud of the Reputation We've Earned</h4> */}
       <section className="accolades-info">
         <article className="individual-accolade">
-          <img src={outsideLogo} alt="outside-magazine-logo" />
+          <img src={outsideLogo} />
           <h4>Our People</h4>
-          <p>Voted <span className="bold-accolade">"World's Best Travel Company" </span>by Outside Magazine</p>
+          <p>Our employees are number one! We truly care about our employees and their families. Providing an atmosphere of innovation and ensuring the safety of our people is vital to our success. The sum of all our hard working employees makes up the company we love, PHM Brands.</p>
         </article>  
         <article className="individual-accolade">
-          <img src={outsideBadge} id="outside-badge" alt="outside-magazine-badge" />
-          <h4>Our Products</h4>
-          <p>Natural Habitate Adventures Ranked <span className="bold-accolade">"Best Outfitter"</span></p>
+          <img src={outsideBadge} />
+          <h4>Our Quality</h4>
+          <p>"Quality" is not just a buzz word for us! We invest heavily in equipment, training, and certifications to assure that our products are next to none. With experienced engineers and a Quality Assurance lab, onsite our products are checked, checked and checked again to make sure that the ingredients you receive will provide you with top notch finished products.</p>
         </article>  
         <article className="individual-accolade">
-          <img src={natGeo} alt="national-geographic-traveler-logo" />
-          <h4>Our Customers</h4>
-          <p>Voted <span className="bold-accolade">"Best Winter Trip" </span>Natural Habitat Adventures' Monarch Butterfly Migration, Mexico</p>
+          <img src={natGeo} />
+          <h4>Our Customer</h4>
+          <p>Some people simply want a quick sale. Those people are not Panhandle Milling. The relationships we have with each and every customer matters. We believe actions matter more than words when it comes to showing our customers that we care. Our agility allows us to meet our customers' needs.</p>
         </article>
       </section>
       <div className="tagline-container">

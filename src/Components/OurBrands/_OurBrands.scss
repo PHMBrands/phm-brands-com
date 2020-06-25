@@ -1,0 +1,14 @@
+.our-brands {
+  text-align: center;
+}
+
+.our-brands-details {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.brand-logo {
+  height: 75px;
+}
+
+//rename image classes, get all those motherfuckers in a grid
