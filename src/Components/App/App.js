@@ -13,6 +13,7 @@ import StickyFooter from '../StickyFooter/StickyFooter';
 import OurCompanies from '../OurCompanies/OurCompanies';
 import OurBrands from '../OurBrands/OurBrands';
 import SkinnyFooter from '../SkinnyFooter/SkinnyFooter';
+import ContactUs from '../ContactUs/ContactUs';
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
       {/* <StickyFooter /> */}
       {/* <VideoMain /> */}
       {/* <NewsletterSignUp /> */}
+      <ContactUs />
       <SkinnyFooter />
       {/* <Footer /> */}
 
