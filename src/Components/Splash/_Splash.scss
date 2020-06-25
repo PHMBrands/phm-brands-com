@@ -1,5 +1,5 @@
 .splash {
-  background-image: url('utils/images/cheetahs.jpg');
+  background-image: url('utils/images/dawn-plant-distance-lightened.jpg');
   height: 100vh;
   width: 100vw;
   background-size: cover;
@@ -28,6 +28,11 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
+
+  .phm-splash-logo {
+    height: 200px;
+    margin-top: 20vh;
+  }
 
   button {
     border: 0px;

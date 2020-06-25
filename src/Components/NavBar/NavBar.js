@@ -7,18 +7,18 @@ const NavBar = () => {
   return (
     <header>
       <div className="nav-bar-icons">
-        <img src={natHabIcon} className="nat-hab-logo" alt="Natural Habitat Adventures icon" />
-        <img src={wwfIcon} className="wwf-logo" alt="WWF icon" />
+        {/* <img src={natHabIcon} className="nat-hab-logo" alt="Natural Habitat Adventures icon" /> */}
+        {/* <img src={wwfIcon} className="wwf-logo" alt="WWF icon" /> */}
       </div>
       <div className="nav-bar-links">
-        <h5>HOME</h5>
-        <h5>OUR TRIPS</h5>
-        <h5>GUIDES & STAFF</h5>
-        <h5>WHY TRAVEL WITH US?</h5>
-        <h5>RESOURCES</h5>
-        <h5>CONTACT US</h5>
-        <h5>eNEWS SIGNUP</h5>
-        <button className="catalog-link">GET THE CATALOG</button>
+        <h5>About Us</h5>
+        <h5>Our Companies</h5>
+        <h5>Our Products</h5>
+        <h5>Our Team</h5>
+        <h5>Contact Us</h5>
+        {/* <h5>CONTACT US</h5> */}
+        {/* <h5>eNEWS SIGNUP</h5> */}
+        {/* <button className="catalog-link">GET THE CATALOG</button> */}
       </div>
     </header>
   )

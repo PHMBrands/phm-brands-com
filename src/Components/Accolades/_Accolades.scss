@@ -2,6 +2,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #003861;
+  color: #FFFFFF;
+
 
   h4 {
     margin: 75px 0px;
@@ -36,7 +39,23 @@
   height: 70px;
 }
 
+.tagline-container {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 3.5em;
+}
+
+#tagline {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: fit-content;
+}
+
 #accolades-splash {
   margin-top: 60px;
   width: 100%;
 }
+

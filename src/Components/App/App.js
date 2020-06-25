@@ -10,6 +10,8 @@ import NewsletterSignUp from '../NewsletterSignUp/NewsletterSignUp';
 import Accolades from '../Accolades/Accolades';
 import Footer from '../Footer/Footer';
 import StickyFooter from '../StickyFooter/StickyFooter';
+import OurCompanies from '../OurCompanies/OurCompanies';
+import OurBrands from '../OurBrands/OurBrands';
 
 
 function App() {
@@ -17,15 +19,17 @@ function App() {
     <div className="App">
       <NavBar />
       <Splash />
-      <TripSelector />
-      <FeaturedTrips />
-      <RegionalTrips />
+      <Accolades />
+      <OurCompanies />
+      <OurBrands />
+      {/* <TripSelector /> */}
+      {/* <FeaturedTrips /> */}
+      {/* <RegionalTrips /> */}
       <AboutMain />
-      <StickyFooter />
+      {/* <StickyFooter /> */}
       <VideoMain />
       <NewsletterSignUp />
-      <Accolades />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }
