@@ -8,7 +8,7 @@ const Accolades = () => {
   
   return (
     <section className="accolades">
-      {/* <h4>We're Proud of the Reputation We've Earned</h4> */}
+      <h4>About Us</h4>
       <section className="accolades-info">
         <article className="individual-accolade">
           <img src={peopleIcon} />
