@@ -14,6 +14,7 @@ import OurCompanies from '../OurCompanies/OurCompanies';
 import OurBrands from '../OurBrands/OurBrands';
 import SkinnyFooter from '../SkinnyFooter/SkinnyFooter';
 import ContactUs from '../ContactUs/ContactUs';
+import OurTeam from '../OurTeam/OurTeam';
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
       {/* <StickyFooter /> */}
       {/* <VideoMain /> */}
       {/* <NewsletterSignUp /> */}
+      <OurTeam />
       <ContactUs />
       <SkinnyFooter />
       {/* <Footer /> */}
