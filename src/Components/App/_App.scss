@@ -21,7 +21,7 @@ h4 {
 }
 
 @media only screen
-and (max-width : 660px) {
+and (max-width : 560px) {
 
   #smooth-scroll-button {
     display: none;
@@ -44,6 +44,10 @@ and (max-width : 660px) {
     width: 300px !important;
   }
 
+  .company-logo {
+    height: 125px !important;
+  }
+
   #tagline {
     font-size: 1.8rem !important;
   }
@@ -61,8 +65,21 @@ and (max-width : 660px) {
   }
 
   .our-team-section {
+    // width: 100vw !important;
     display: grid;
     grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  .team-member-image {
+    width: 100px !important;
+  }
+
+  .missing-member-div {
+    width: 100px !important;
+  }
+
+  .missing-member-image {
+    height: 50px !important;
   }
 
   .contact-options {
