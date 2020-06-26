@@ -27,7 +27,7 @@ const Accolades = () => {
         </article>
       </section>
       <div className="tagline-container">
-        <p id="tagline"><em>Making safe food and food safe.</em></p>
+        {/* <p id="tagline"><em>Making safe food and food safe.</em></p> */}
         <img src={taglineImage} id="accolades-splash" alt="field of grains" />
       </div>
     </section>
