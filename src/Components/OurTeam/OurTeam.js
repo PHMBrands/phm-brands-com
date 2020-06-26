@@ -17,12 +17,12 @@ const OurTeam = () => {
         <article className="team-member">
           <img src={John} className="team-member-image" />
           <p className="member-name">John Mason</p>
-          <p>Partner</p>
+          <p>CEO</p>
         </article>
         <article className="team-member">
           <img src={Bryan} className="team-member-image" />
           <p className="member-name">Bryan Ledgerwood</p>
-          <p>Partner</p>
+          <p>CEO</p>
         </article>
         <article className="team-member">
           <div className="missing-member-div"><img src={headshot} className="missing-member-image" /></div>
@@ -57,7 +57,7 @@ const OurTeam = () => {
         <article className="team-member">
           <div className="missing-member-div"><img src={headshot} className="missing-member-image" /></div>
           <p className="member-name">Bill Streeter</p>
-          <p>Cheif Financial Officer</p>
+          <p>Chief Financial Officer</p>
         </article>
         <article className="team-member">
           <div className="missing-member-div"><img src={headshot} className="missing-member-image" /></div>
