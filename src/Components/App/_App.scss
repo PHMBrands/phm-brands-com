@@ -21,15 +21,60 @@ h4 {
 }
 
 @media only screen
-and (max-width : 560px) {
+and (max-width : 660px) {
 
   #smooth-scroll-button {
     display: none;
   }
 
-
-
-  header {
-    background-color: slateblue;
+  .splash {
+    height: 50vh !important;
+    // background-position-x: -4rem !important;
   }
+
+  .section-header {
+    font-size: 40px;
+  }
+
+  .accolades-info {
+    flex-direction: column;
+  }
+
+  .individual-accolade {
+    width: 300px !important;
+  }
+
+  #tagline {
+    font-size: 1.8rem !important;
+  }
+
+  .our-brands-details {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  .brand-logo {
+    height: 60px !important;
+  }
+  
+  #needs-bigger-logo {
+    height: 90px !important;
+  }
+
+  .our-team-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  .contact-options {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .contact-form {
+    display: none !important;
+  }
+
+
+
 }
