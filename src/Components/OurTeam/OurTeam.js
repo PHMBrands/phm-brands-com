@@ -1,5 +1,5 @@
 import React from 'react';
-import headshot from '../../utils/images/phm-brands-logo.png';
+import headshot from '../../utils/images/phm-brands-orange-logo.png';
 // import headshot from '../../utils/images/target.png';
 import Bryan from '../../utils/images/bryan-ledgerwood.jpg';
 import John from '../../utils/images/john-mason.jpg';
@@ -25,7 +25,7 @@ const OurTeam = () => {
           <p>Partner</p>
         </article>
         <article className="team-member">
-          <img src={headshot} className="team-member-image" />
+          <div className="missing-member-div"><img src={headshot} className="missing-member-image" /></div>
           <p className="member-name">Peter Bisaccia</p>
           <p>President, Panhandle Milling</p>
         </article>
@@ -45,7 +45,7 @@ const OurTeam = () => {
           <p>VP HR & Facilities</p>
         </article>
         <article className="team-member">
-          <img src={headshot} className="team-member-image" />
+          <div className="missing-member-div"><img src={headshot} className="missing-member-image" /></div>
           <p className="member-name">Neil Hartzell</p>
           <p>VP Supply Chain & Logistics</p>
         </article>
@@ -55,14 +55,14 @@ const OurTeam = () => {
           <p>VP Technical Milling & Engineering</p>
         </article>
         <article className="team-member">
-          <img src={headshot} className="team-member-image" />
-          <p className="member-name">Scott Freebern</p>
-          <p>VP Technical Milling & Engineering</p>
+          <div className="missing-member-div"><img src={headshot} className="missing-member-image" /></div>
+          <p className="member-name">Bill Streeter</p>
+          <p>Cheif Financial Officer</p>
         </article>
         <article className="team-member">
-          <img src={headshot} className="team-member-image" />
-          <p className="member-name">Scott Freebern</p>
-          <p>VP Technical Milling & Engineering</p>
+          <div className="missing-member-div"><img src={headshot} className="missing-member-image" /></div>
+          <p className="member-name">Darin Jensen</p>
+          <p>VP Quality, Food Safety & Regulatory</p>
         </article>
       </div>
     </section>

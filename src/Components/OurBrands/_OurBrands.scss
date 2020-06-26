@@ -13,7 +13,15 @@
   grid-template-columns: repeat(4, 1fr);
 }
 
+.one-brand {
+  margin: 20px;
+}
+
 .brand-logo {
-  height: 75px;
+  height: 100px;
+}
+
+#needs-bigger-logo {
+  height: 130px;
 }
 
