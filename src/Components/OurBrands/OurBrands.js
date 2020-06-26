@@ -8,46 +8,46 @@ const OurBrands = () => {
   
   return (
     <section className="our-brands">
-      <h4>Our Brands</h4>
+      <p className="section-header">Our Brands</p>
       <section className="our-brands-details">
         <article>
           <img src={brandSample} className="brand-logo"  />
-          <h4>Our People</h4>
+          {/* <h4>Our People</h4> */}
           {/* <p>Voted <span className="bold-accolade">"World's Best Travel Company" </span>by Outside Magazine</p> */}
         </article>  
         <article>
           <img src={brandSample} className="brand-logo" />
-          <h4>Our Products</h4>
+          {/* <h6>Viobin</h6> */}
           {/* <p>Natural Habitate Adventures Ranked <span className="bold-accolade">"Best Outfitter"</span></p> */}
         </article>  
         <article>
           <img src={brandSample} className="brand-logo"  />
-          <h4>Our Customers</h4>
+          {/* <h4>Our Customers</h4> */}
           {/* <p>Voted <span className="bold-accolade">"Best Winter Trip" </span>Natural Habitat Adventures' Monarch Butterfly Migration, Mexico</p> */}
         </article>
         <article>
           <img src={brandSample} className="brand-logo" />
-          <h4>Our People</h4>
+          {/* <h4>Our People</h4> */}
           {/* <p>Voted <span className="bold-accolade">"World's Best Travel Company" </span>by Outside Magazine</p> */}
         </article>
         <article>
           <img src={brandSample} className="brand-logo" />
-          <h4>Our People</h4>
+          {/* <h4>Our People</h4> */}
           {/* <p>Voted <span className="bold-accolade">"World's Best Travel Company" </span>by Outside Magazine</p> */}
         </article>
         <article>
           <img src={brandSample} className="brand-logo" />
-          <h4>Our People</h4>
+          {/* <h4>Our People</h4> */}
           {/* <p>Voted <span className="bold-accolade">"World's Best Travel Company" </span>by Outside Magazine</p> */}
         </article>
         <article>
           <img src={brandSample} className="brand-logo" />
-          <h4>Our People</h4>
+          {/* <h4>Our People</h4> */}
           {/* <p>Voted <span className="bold-accolade">"World's Best Travel Company" </span>by Outside Magazine</p> */}
         </article>
         <article>
           <img src={brandSample} className="brand-logo" />
-          <h4>Our People</h4>
+          {/* <h4>Our People</h4> */}
           {/* <p>Voted <span className="bold-accolade">"World's Best Travel Company" </span>by Outside Magazine</p> */}
         </article>
       </section>

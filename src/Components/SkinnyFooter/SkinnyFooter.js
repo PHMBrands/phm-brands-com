@@ -8,11 +8,11 @@ const SkinnyFooter = () => {
     <footer>
       <div className="footer-links">
         <h5>Privacy Policy</h5>
-        <h5>Press</h5>
+        {/* <h5>Press</h5> */}
         <h5>LinkedIn</h5>
         <h5>Careers</h5>
-        <h5>Product Catalogue</h5>
-        <h5>Retail Placemat</h5>
+        {/* <h5>Product Catalog</h5> */}
+        {/* <h5>Retail Placemat</h5> */}
       </div>
     </footer>
   )

@@ -2,16 +2,26 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+    background-image: url('utils/images/dawn-plant-distance-lightened.jpg');
+    // height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    // color: #6D6E71
 
   h5 {
     font-size: 30px;
     margin-bottom: 15px;
+    color: #FDF8F0
   }
 }
 
 .contact-options {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  color: #FDF8F0;
 }
 
 .contact-info {

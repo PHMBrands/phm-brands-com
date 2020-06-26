@@ -8,26 +8,26 @@ const Accolades = () => {
   
   return (
     <section className="accolades">
-      <h4>About Us</h4>
+      <p className="section-header">About Us</p>
       <section className="accolades-info">
         <article className="individual-accolade">
           <img src={peopleIcon} />
           <h4>Our People</h4>
-          <p>Our employees are number one! We truly care about our employees and their families. Providing an atmosphere of innovation and ensuring the safety of our people is vital to our success. The sum of all our hard working employees makes up the company we love, PHM Brands.</p>
+          <p className="tenet-text">Our team is driven for results and executes humbly, passionately, and with a determination to win. We take pride and responsibility for our performance in all of our decisions and actions.</p>
         </article>  
         <article className="individual-accolade">
           <img src={qualityIcon} />
           <h4>Our Quality</h4>
-          <p>"Quality" is not just a buzz word for us! We invest heavily in equipment, training, and certifications to assure that our products are next to none. With experienced engineers and a Quality Assurance lab, onsite our products are checked, checked and checked again to make sure that the ingredients you receive will provide you with top notch finished products.</p>
+          <p className="tenet-text">Our team is focused on making safe food, and food safe. We develop a clear understanding of our customer’s requirements, own our responsibilities and accountabilities, and deliver safe and consistent product that can be trusted by all. Our continuous drive for improvement in our processes supports our commitment to quality and safety in everything that we do.</p>
         </article>  
         <article className="individual-accolade">
           <img src={customerIcon} />
           <h4>Our Customer</h4>
-          <p>Some people simply want a quick sale. Those people are not Panhandle Milling. The relationships we have with each and every customer matters. We believe actions matter more than words when it comes to showing our customers that we care. Our agility allows us to meet our customers' needs.</p>
+          <p className="tenet-text">Our team is focused on delivering for our customers through partnerships and meeting our promises. We listen, challenge and focus our efforts on providing solutions that meet the changing needs of the industries we serve.</p>
         </article>
       </section>
       <div className="tagline-container">
-        <p id="tagline">Making safe food, and food safe</p>
+        <p id="tagline"><em>Making safe food and food safe.</em></p>
         <img src={taglineImage} id="accolades-splash" alt="field of grains" />
       </div>
     </section>

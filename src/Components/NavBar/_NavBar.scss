@@ -1,10 +1,11 @@
 header {
-  color: #AC6303;
+  color: #FDF8F0;
+  font-weight: 400;
   display: flex;
   justify-content: space-between;
-  background: #F4F6F9;
+  background-color: #E59D6C;
   border-bottom: 1px solid #D5D5D5;
-  height: 50px;
+  height: 100px;
   position: fixed;
   width: 100vw;
   margin: 0px;
@@ -13,17 +14,17 @@ header {
   h5 {
     margin: 16.5px;
     font-weight: 600;
-    font-size: 1em;
+    font-size: 1.5em;
   }
 
   h5:hover {
-    color: #333333;
+    color: #003861;
     cursor: pointer;
   }
 }
 
 .nav-bar-icons {
-  margin: 10px 0px 0px 25px;
+  margin: 0px 0px 0px 25px;
   display: flex;
 }
 
@@ -46,6 +47,7 @@ header {
 .nav-bar-links {
   display: flex;
   text-transform: uppercase;
+  margin: auto 75px;
 }
 
 .catalog-link {
