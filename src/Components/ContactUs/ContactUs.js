@@ -12,8 +12,8 @@ const ContactUs = () => {
         <section className="contact-info">
           <h5>Contact Info</h5>
           <p>Questions, comments, inquiries? Send us a message and a team member will be in touch with you shortly. </p>
-          <p>Phone: 303-219-9142</p>
-          <p>Email: ContactUs@PHMbrands.com</p>
+          <p><strong>Phone:</strong> 303-219-9142</p>
+          <p><strong>Email:</strong> ContactUs@PHMbrands.com</p>
         </section> 
         <section className="contact-form">
           <h5>Contact Form</h5>

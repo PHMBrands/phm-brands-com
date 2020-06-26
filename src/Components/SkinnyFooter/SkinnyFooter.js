@@ -7,10 +7,10 @@ const SkinnyFooter = () => {
   return (
     <footer>
       <div className="footer-links">
-        <h5>Privacy Policy</h5>
+        <a href="https://viobincbd.com/privacy-policy-2" target="_blank">Privacy Policy</a>
+        <a href="https://www.linkedin.com/company/phm-brands" target="_blank">LinkedIn</a>
+        <a href="https://www.ziprecruiter.com/c/PHM-Brands/Jobs" target="_blank">Careers</a>
         {/* <h5>Press</h5> */}
-        <h5>LinkedIn</h5>
-        <h5>Careers</h5>
         {/* <h5>Product Catalog</h5> */}
         {/* <h5>Retail Placemat</h5> */}
       </div>
