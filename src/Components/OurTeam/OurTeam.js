@@ -11,7 +11,7 @@ import Scott from '../../utils/images/scott-freebern.jpg';
 const OurTeam = () => {
 
   return (
-    <section className="our-team">
+    <section className="our-team" id="team">
       <p className="section-header">Our Senior Leadership Team</p>
       <div className="our-team-section">
         <article className="team-member">

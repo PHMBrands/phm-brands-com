@@ -7,7 +7,7 @@ import taglineImage from '../../utils/images/sample-wheat-field.jpg';
 const Accolades = () => {
   
   return (
-    <section className="accolades">
+    <section className="accolades" id="about">
       <p className="section-header">About Us</p>
       <section className="accolades-info">
         <article className="individual-accolade">

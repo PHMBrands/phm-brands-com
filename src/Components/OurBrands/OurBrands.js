@@ -19,7 +19,7 @@ import viobinCBDBrand from '../../utils/images/viobincbd-brand-logo.png';
 const OurBrands = () => {
   
   return (
-    <section className="our-brands">
+    <section className="our-brands" id="brands">
       <p className="section-header">Our Brands</p>
       <section className="our-brands-details">
         <article className="one-brand">

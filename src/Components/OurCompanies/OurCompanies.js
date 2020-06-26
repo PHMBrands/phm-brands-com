@@ -7,7 +7,7 @@ import GuardianLogo from '../../utils/images/guardian-logo.png';
 const OurCompanies = () => {
   
   return (
-    <section className="accolades">
+    <section className="accolades" id="businesses">
       <p className="section-header">Our Businesses</p>
       <section className="accolades-info">
         <article className="company-info">

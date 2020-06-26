@@ -6,7 +6,7 @@ const ContactUs = () => {
     e.preventDefault()
   }
 
-  return <section className="contact-us">
+  return <section className="contact-us" id="contact">
       <p className="section-header">Contact Us</p>
       <section className="contact-options">
         <section className="contact-info">
