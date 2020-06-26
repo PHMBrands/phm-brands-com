@@ -7,9 +7,9 @@ import GuardianLogo from '../../utils/images/guardian-logo.png';
 const OurCompanies = () => {
   
   return (
-    <section className="accolades" id="businesses">
+    <section className="companies" id="businesses">
       <p className="section-header">Our Businesses</p>
-      <section className="accolades-info">
+      <section className="companies-info">
         <article className="company-info">
           <a href="https://panhandlemilling.com" ><img src={PanhandleLogo} className="company-logo" /></a>
           {/* <h4>Our People</h4> */}

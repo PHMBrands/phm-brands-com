@@ -18,12 +18,12 @@ const Accolades = () => {
         <article className="individual-accolade">
           <img src={qualityIcon} />
           <h4>Our Quality</h4>
-          <p className="tenet-text">Our team is focused on making safe food, and food safe. We develop a clear understanding of our customer’s requirements, own our responsibilities and accountabilities, and deliver safe and consistent product that can be trusted by all. Our continuous drive for improvement in our processes supports our commitment to quality and safety in everything that we do.</p>
+          <p className="tenet-text">Our team is focused on making safe food and food safe. We develop a clear understanding of our customer’s requirements, own our responsibilities and accountabilities, and deliver safe and consistent product that can be trusted by all. Our continuous drive for improvement in our processes supports our commitment to quality and safety in everything that we do.</p>
         </article>  
         <article className="individual-accolade">
           <img src={customerIcon} />
           <h4>Our Customer</h4>
-          <p className="tenet-text">Our team is focused on delivering for our customers through partnerships and meeting our promises. We listen, challenge and focus our efforts on providing solutions that meet the changing needs of the industries we serve.</p>
+          <p className="tenet-text">Our team is focused on delivering for our customers through partnerships and meeting our promises. We listen, challenge, and focus our efforts on providing solutions that meet the changing needs of the industries we serve.</p>
         </article>
       </section>
       <div className="tagline-container">
