@@ -1,6 +1,6 @@
 import React from 'react';
 // import natHabIcon from '../../utils/images/logo-nha.png';
-import wwfIcon from '../../utils/images/logo-wwf.png';
+// import wwfIcon from '../../utils/images/logo-wwf.png';
 import PHMlogo from '../../utils/images/phm-brands-logo.png';
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 

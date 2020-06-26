@@ -1,6 +1,6 @@
 import React from 'react';
-import natHabIcon from '../../utils/images/logo-nha.png';
-import wwfIcon from '../../utils/images/logo-wwf.png';
+// import natHabIcon from '../../utils/images/logo-nha.png';
+// import wwfIcon from '../../utils/images/logo-wwf.png';
 
 const SkinnyFooter = () => {
 
