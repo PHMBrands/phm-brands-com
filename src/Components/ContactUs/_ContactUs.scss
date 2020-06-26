@@ -46,11 +46,31 @@
 
   input {
     margin: 5px 0px;
+    opacity: .4;
+    height: 25px;
   }
 
-  button {
-    margin-top: 10px;
+  textarea {
+    opacity: .4;
   }
+
+}
+
+.solo-button {
+  margin-top: 10px;
+  height: 30px;
+  width: 20vw;
+  border: none;
+  border-radius: 8px;
+  font-size: large;
+  color: #6D6E71;
+  opacity: .6;
+  transition: opacity .6s;
+  cursor: pointer;
+}
+
+.solo-button:hover {
+  opacity: 1;
 }
 
 .form-name-and-email {
