@@ -56,12 +56,16 @@ and (max-width : 560px) {
     grid-template-columns: repeat(2, 1fr) !important;
   }
 
+  .one-brand {
+    margin: 10px !important;
+  }
+
   .brand-logo {
-    height: 60px !important;
+    height: 40px !important;
   }
   
   #needs-bigger-logo {
-    height: 90px !important;
+    height: 60px !important;
   }
 
   .our-team-section {
@@ -76,6 +80,7 @@ and (max-width : 560px) {
 
   .missing-member-div {
     width: 100px !important;
+    height: 100px !important;
   }
 
   .missing-member-image {
