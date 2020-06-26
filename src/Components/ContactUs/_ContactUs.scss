@@ -48,12 +48,25 @@
     margin: 5px 0px;
     opacity: .4;
     height: 25px;
+    padding: 5px;
+    transition: opacity .6s;
+    border: none;
   }
 
   textarea {
     opacity: .4;
+    padding: 6px;
+    transition: opacity .6s;
+    border: none;
   }
+}
 
+input:hover {
+  opacity: 1;
+}
+
+textarea:hover {
+  opacity: 1;
 }
 
 .solo-button {

@@ -2,6 +2,10 @@ import React from 'react';
 
 const ContactUs = () => {
 
+  const fakeButton = (e) => {
+    e.preventDefault()
+  }
+
   return <section className="contact-us">
       <p className="section-header">Contact Us</p>
       <section className="contact-options">
@@ -36,7 +40,7 @@ const ContactUs = () => {
             {/* <input className="form-message"
               type="textarea"
             />  */}
-            <button className="solo-button">SUBMIT</button>
+            <button className="solo-button" onClick={ fakeButton }>SUBMIT</button>
           </form>
         </section>
       </section>
