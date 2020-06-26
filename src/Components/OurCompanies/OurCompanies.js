@@ -11,17 +11,17 @@ const OurCompanies = () => {
       <p className="section-header">Our Businesses</p>
       <section className="accolades-info">
         <article className="company-info">
-          <img src={PanhandleLogo} className="company-logo" />
+          <a href="https://panhandlemilling.com" ><img src={PanhandleLogo} className="company-logo" /></a>
           {/* <h4>Our People</h4> */}
           <p>Grain-based products for industrial, retail, and e-commerce.</p>
         </article>  
         <article className="company-info">
-          <img src={ViobinLogo} className="company-logo" />
+        <a href="https://viobin.com" ><img src={ViobinLogo} className="company-logo" /></a>
           {/* <h4>Our Products</h4> */}
           <p>Oil extraction and supplements for human and animal markets.</p>
         </article>  
         <article className="company-info">
-          <img src={GuardianLogo} className="company-logo" />
+          <a href="https://www.electrobiocide.com" ><img src={GuardianLogo} className="company-logo" /></a>
           {/* <h4>Our Customers</h4> */}
           <p>Pathogen reduction processes and products for food and non-food applications. </p>
         </article>

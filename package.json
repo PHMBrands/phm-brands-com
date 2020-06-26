@@ -1,5 +1,6 @@
 {
   "name": "nat-hab-mock",
+  "homepage": "http://www.phmbrands.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
