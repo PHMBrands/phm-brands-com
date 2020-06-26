@@ -9,6 +9,8 @@ import Jennifer from '../../utils/images/jennifer-harnish.jpg';
 import Scott from '../../utils/images/scott-freebern.jpg';
 import Bill from '../../utils/images/bill-streeter.jpg';
 import Darin from '../../utils/images/darin-jensen.jpg';
+import HeadshotReplacement from '../../utils/images/headshot-replacement.jpg';
+
 // import DarinTest from '../../utils/images/darin-jensen-test.jpg';
 
 
@@ -29,7 +31,7 @@ const OurTeam = () => {
           <p>CEO</p>
         </article>
         <article className="team-member">
-          <div className="missing-member-div"><img src={headshot} className="missing-member-image" /></div>
+          <img src={HeadshotReplacement} className="team-member-image" />
           <p className="member-name">Peter Bisaccia</p>
           <p>President, Panhandle Milling</p>
         </article>
@@ -49,7 +51,7 @@ const OurTeam = () => {
           <p>VP HR & Facilities</p>
         </article>
         <article className="team-member">
-          <div className="missing-member-div"><img src={headshot} className="missing-member-image" /></div>
+          <img src={HeadshotReplacement} className="team-member-image" />
           <p className="member-name">Neil Hartzell</p>
           <p>VP Supply Chain & Logistics</p>
         </article>
