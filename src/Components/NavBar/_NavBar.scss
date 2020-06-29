@@ -11,21 +11,23 @@ header {
   margin: 0px;
   z-index: 999;
 
-  h5 {
-    margin: 16.5px;
-    font-weight: 600;
-    font-size: 1.5em;
-  }
+  // h5 {
+  //   margin: 16.5px;
+  //   font-weight: 600;
+  //   // font-size: 1.5em;
+  // }
 
-  h5:hover {
-    color: #003861;
-    cursor: pointer;
-  }
+  // h5:hover {
+  //   color: #003861;
+  //   cursor: pointer;
+  // }
 }
 
 #smooth-scroll-button {
   color: #FDF8F0;
   text-decoration: none;
+  font-size: 1.75vw;
+  text-align: center;
 }
 
 #smooth-scroll-button:hover {

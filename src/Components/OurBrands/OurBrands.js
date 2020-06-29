@@ -21,26 +21,33 @@ const OurBrands = () => {
   return (
     <section className="our-brands" id="brands">
       <p className="section-header">Our Brands</p>
-      <section className="our-brands-details">
-        <article className="one-brand">
+      <section className="our-brands-details-row-one">
+        {/* <article className="one-brand">
           <a href="https://www.electrobiocide.com/buy-now" target="_blank"><img src={electroBrand} className="brand-logo" id="needs-bigger-logo" /></a>
           {/* <h4>Our People</h4> */}
           {/* <p>Voted <span className="bold-accolade">"World's Best Travel Company" </span>by Outside Magazine</p> */}
-        </article>  
+        {/* </article>   */}
+        <article className="one-brand">
+          <a href="https://www.panhandlemilling.com/shop" target="_blank"><img src={panhandleBrand} className="brand-logo" /></a>
+          {/* <h4>Our People</h4> */}
+          {/* <p>Voted <span className="bold-accolade">"World's Best Travel Company" </span>by Outside Magazine</p> */}
+        </article>
+        <article className="one-brand">
+          <a href="https://www.viobin.com/online-store" target="_blank"><img src={viobinBrand} className="brand-logo" /></a>
+          {/* <h4>Our People</h4> */}
+          {/* <p>Voted <span className="bold-accolade">"World's Best Travel Company" </span>by Outside Magazine</p> */}
+        </article> 
         <article className="one-brand">
           <a href="https://www.electrobiocide.com/buy-now" target="_blank"><img src={guardianBrand} className="brand-logo" /></a>
           {/* <h6>Viobin</h6> */}
           {/* <p>Natural Habitate Adventures Ranked <span className="bold-accolade">"Best Outfitter"</span></p> */}
         </article>  
+      </section>
+      <section className="our-brands-details-row-two"> 
         <article className="one-brand">
           <a href="https://organicgrains.com/collections" target="_blank"><img src={organicGrainsBrand} className="brand-logo"  /></a>
           {/* <h4>Our Customers</h4> */}
           {/* <p>Voted <span className="bold-accolade">"Best Winter Trip" </span>Natural Habitat Adventures' Monarch Butterfly Migration, Mexico</p> */}
-        </article>
-        <article className="one-brand">
-          <a href="https://www.panhandlemilling.com/shop" target="_blank"><img src={panhandleBrand} className="brand-logo" /></a>
-          {/* <h4>Our People</h4> */}
-          {/* <p>Voted <span className="bold-accolade">"World's Best Travel Company" </span>by Outside Magazine</p> */}
         </article>
         <article className="one-brand">
           <a href="https://www.rex-oil.com/shop" target="_blank"><img src={rexBrand} className="brand-logo" id="needs-bigger-logo" /></a>
@@ -49,11 +56,6 @@ const OurBrands = () => {
         </article>
         <article className="one-brand">
           <a href="https://www.texaspuremilling.com/online-store" target="_blank"><img src={texasPureBrand} className="brand-logo" /></a>
-          {/* <h4>Our People</h4> */}
-          {/* <p>Voted <span className="bold-accolade">"World's Best Travel Company" </span>by Outside Magazine</p> */}
-        </article>
-        <article className="one-brand">
-          <a href="https://www.viobin.com/online-store" target="_blank"><img src={viobinBrand} className="brand-logo" /></a>
           {/* <h4>Our People</h4> */}
           {/* <p>Voted <span className="bold-accolade">"World's Best Travel Company" </span>by Outside Magazine</p> */}
         </article>

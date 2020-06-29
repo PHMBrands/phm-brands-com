@@ -7,6 +7,12 @@ import Don from '../../utils/images/don-pearson.jpg';
 import Jason from '../../utils/images/jason-stoddart.jpg';
 import Jennifer from '../../utils/images/jennifer-harnish.jpg';
 import Scott from '../../utils/images/scott-freebern.jpg';
+import Bill from '../../utils/images/bill-streeter.jpg';
+import Darin from '../../utils/images/darin-jensen.jpg';
+import HeadshotReplacement from '../../utils/images/headshot-replacement.jpg';
+
+// import DarinTest from '../../utils/images/darin-jensen-test.jpg';
+
 
 const OurTeam = () => {
 
@@ -17,15 +23,15 @@ const OurTeam = () => {
         <article className="team-member">
           <img src={John} className="team-member-image" />
           <p className="member-name">John Mason</p>
-          <p>Partner</p>
+          <p>CEO</p>
         </article>
         <article className="team-member">
           <img src={Bryan} className="team-member-image" />
           <p className="member-name">Bryan Ledgerwood</p>
-          <p>Partner</p>
+          <p>CEO</p>
         </article>
         <article className="team-member">
-          <div className="missing-member-div"><img src={headshot} className="missing-member-image" /></div>
+          <img src={HeadshotReplacement} className="team-member-image" />
           <p className="member-name">Peter Bisaccia</p>
           <p>President, Panhandle Milling</p>
         </article>
@@ -45,7 +51,7 @@ const OurTeam = () => {
           <p>VP HR & Facilities</p>
         </article>
         <article className="team-member">
-          <div className="missing-member-div"><img src={headshot} className="missing-member-image" /></div>
+          <img src={HeadshotReplacement} className="team-member-image" />
           <p className="member-name">Neil Hartzell</p>
           <p>VP Supply Chain & Logistics</p>
         </article>
@@ -55,12 +61,12 @@ const OurTeam = () => {
           <p>VP Technical Milling & Engineering</p>
         </article>
         <article className="team-member">
-          <div className="missing-member-div"><img src={headshot} className="missing-member-image" /></div>
+          <img src={Bill} className="team-member-image" />
           <p className="member-name">Bill Streeter</p>
-          <p>Cheif Financial Officer</p>
+          <p>Chief Financial Officer</p>
         </article>
         <article className="team-member">
-          <div className="missing-member-div"><img src={headshot} className="missing-member-image" /></div>
+          <img src={Darin} className="team-member-image" />
           <p className="member-name">Darin Jensen</p>
           <p>VP Quality, Food Safety & Regulatory</p>
         </article>

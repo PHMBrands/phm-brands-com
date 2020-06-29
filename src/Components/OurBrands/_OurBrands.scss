@@ -8,7 +8,12 @@
   }
 }
 
-.our-brands-details {
+.our-brands-details-row-one {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.our-brands-details-row-two {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
